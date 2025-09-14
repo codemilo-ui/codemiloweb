@@ -1,35 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CodeMilo – Intro</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parikshit – Interactive Fluid</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <h1 class="fade-up">Hi, I'm <span class="highlight">CodeMilo</span></h1>
-      <p class="fade-up delay-1">Creator • Editor • Coder</p>
-      <a href="https://www.youtube.com/@cmed1ts" target="_blank" class="btn fade-up delay-2">
-        Visit My YouTube
-      </a>
-    </div>
-  </header>
+  <canvas id="fluid"></canvas>
 
-  <section class="about">
-    <h2 class="slide-in">About Me</h2>
-    <p class="slide-in delay-1">
-      I'm a digital creator who loves mixing code and creativity.  
-      I share edits and tech content on my YouTube channel <strong>@cmed1ts</strong>.
-    </p>
-  </section>
+  <main class="content">
+    <h1>Parikshit</h1>
+    <p>Age 16 • Active Editor • Developer</p>
+  </main>
 
-  <footer>
-    <p>&copy; <span id="year"></span> CodeMilo</p>
-  </footer>
+  <footer>&copy; <span id="year"></span> Parikshit</footer>
 
+  <!-- Fluid simulation core (self-contained) -->
+  <script src="fluid.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
